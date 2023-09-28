@@ -1,62 +1,62 @@
 module.exports = {
-   email: 'loqophonixo@gmail.com',
+   email: "loqophonixo@gmail.com",
 
    socialMediad: [
       {
-         name: 'GitHub',
-         url: 'https://github.com/PhonIXQ',
+         name: "GitHub",
+         url: "https://github.com/PhonIXQ",
       },
       {
-         name: 'Instagram',
-         url: 'https://instagram.com/PhonIXOQ',
+         name: "Instagram",
+         url: "https://instagram.com/PhonIXOQ",
       },
       {
-         name: 'Linkedin',
-         url: 'https://linkedin.com/in/PhonIXQ',
+         name: "Linkedin",
+         url: "https://linkedin.com/in/PhonIXQ",
       },
       {
-         name: 'Twitch',
-         url: 'https://www.twitch.tv/PhonIXOQ'
+         name: "Twitch",
+         url: "https://www.twitch.tv/PhonIXOQ",
       },
    ],
 
    navLinks: [
       {
-         name: 'About',
-         url: '#about'
+         name: "About",
+         url: "#about",
       },
       {
-         name: 'Experience',
-         url: '#experience'
+         name: "Experience",
+         url: "#experience",
       },
       {
-         name: 'Projects',
-         url: '#projects'
+         name: "Projects",
+         url: "#projects",
       },
       {
-         name: 'Contact',
-         url: '#contact'
+         name: "Contact",
+         url: "#contact",
       },
    ],
 
    colors: {
-      green: '#64ffda',
-      navy: '#0a192f',
-      darknavy: '#020c1b'
+      green: "#64ffda",
+      navy: "#0a192f",
+      darknavy: "#020c1b",
    },
 
    srConfig: (delay = 200, viewFactor = 0.25) => ({
-      origin: 'bottom',
-      distance: '20px',
+      origin: "bottom",
+      distance: "20px",
       duration: 500,
       delay,
       rotate: { x: 0, y: 0, z: 0 },
       opacity: 0,
       scale: 1,
-      easing: 'cubic-bezier(0.645, 0.045, 0.355, 1)',
+      easing: "cubic-bezier(0.645, 0.045, 0.355, 1)",
       mobile: true,
       reset: false,
-      useDelay: 'always',
+      useDelay: "always",
       viewFactor,
       viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
    }),
