@@ -1,7 +1,7 @@
 module.exports = {
    email: "loqophonixo@gmail.com",
 
-   socialMediad: [
+   socialMedia: [
       {
          name: "GitHub",
          url: "https://github.com/PhonIXQ",
@@ -11,7 +11,7 @@ module.exports = {
          url: "https://instagram.com/PhonIXOQ",
       },
       {
-         name: "Linkedin",
+         name: "LinkedIn",
          url: "https://linkedin.com/in/PhonIXQ",
       },
       {

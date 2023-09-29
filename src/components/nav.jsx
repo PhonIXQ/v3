@@ -46,15 +46,15 @@ const StyledLinks = styled.div`
    display: flex;
    align-items: center;
 
-   @media (max-width: 768px) {
-      display: none;
-   }
-
    ol {
       ${({ theme }) => theme.mixins.flexBetween};
       list-style: none;
       padding: 0;
       margin: 0;
+
+      @media (max-width: 768px) {
+         display: none;
+      }
 
       li {
          margin: 0px 5px;
